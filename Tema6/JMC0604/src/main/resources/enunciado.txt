@@ -1,0 +1,6 @@
+6.4. Crea un nuevo proyecto basado en el anterior que incorpore una nueva clase llamada Categoría,
+que representará las distintas categorías de productos con id (Long) y nombre (String). Realiza el CRUD
+completo similar al que hiciste con Producto en el ejercicio anterior, pero sin relacionar categoría con
+producto por ahora.
+Nota: Sería aconsejable realizar sub-carpetas para las vistas (dentro de /templates), una para las vistas de producto y
+otras para las de categoría.

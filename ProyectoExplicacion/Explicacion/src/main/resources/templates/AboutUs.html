@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>ODAW2A</h2>
+    <form action='#' method="post"
+        th:action="@{/quienes-somos}"
+        th:object="${formInfo2}">
+      <select name="list1" th:field="*{nombreEmpleado}">
+        <option th:each="emp:${Empleados}"
+            th:value="${emp}" th:text="${emp}">
+        </option>
+      </select>
+      <br/>
+      <input type="submit"/>
+    </form>
+    <p>Empleado del mes: <span th:text="${empleadoDelMes}">*</span>
+    </p>
+</body>
+</html>

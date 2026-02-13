@@ -1,0 +1,24 @@
+5.4. Realiza una aplicación con un formulario como el de la figura,
+en la que, al seleccionar un país en el desplegable, muestre su
+capital y población. Para ello habrá que realizar los siguientes
+pasos:
+La clase de servicio deberá incluir una colección con los datos de
+los países (nombre, capital, población), por ejemplo:
+private List<Pais> paises = new ArrayList<>();
+y los métodos necesarios para su gestión:
+- cargarPaisesDesdeFichero():empleará el método estático Files.readAllLines() para pasar
+todas las líneas del archivo países2019.csv proporcionado por el profesor a un List<String>.
+Luego, aplicando el método split() a cada String podremos cargar la colección definida en el
+punto anterior. Este método se debe ejecutar al iniciar la aplicación, por lo tanto, se incluiré en
+un CommandLineRunner.
+- getPaises(): Para pasarle al controlador (y de ahí al desplegable de la vista) todos los
+nombres de todos los países.
+- getPais (String nombre) : Obtendrá los datos de un país concreto a partir de su nombre.
+Se invocará desde el controlador cuando se envíe el formulario, con un país seleccionado.
+Este formulario es distinto a los vistos previamente ya que la página ruta destino del submit es la
+misma que la de presentación del formulario. Esto hará que, en el controlador, el GET y POST atiendan
+a la misma ruta.
+Finalmente, para hacer más ágil la aplicación, se puede eliminar el botón de submit del formulario y
+añadir el código JavaScript necesario para que, al cambiar un valor de la lista desplegable, se envíe el
+formulario:
+<select onchange="this.form.submit()" th:field="*{nombre}">

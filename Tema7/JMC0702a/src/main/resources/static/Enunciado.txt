@@ -1,0 +1,4 @@
+7.1. Crea un proyecto que implemente el CRUD de Empleado partiendo del proyecto del tema anterior
+(ejercicio 6.1) y convirtiéndolo en persistente siguiendo los pasos indicados en el tema 7. Además de
+los métodos de JPARepository, incorpora los métodos derivados por nombre y los métodos @Query
+mostrados en los apuntes.

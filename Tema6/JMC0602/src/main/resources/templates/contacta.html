@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacta</title>
+</head>
+<body>
+    <h2>contacta:</h2>
+<p><a href="index">index</a></p>
+    <form action="#" method="post" th:action="@{}">
+        Nombre: <input type="text" id="textNombre"><br>
+        Email: <input type="email" id="textEmaail"><br>
+        <select>
+            <option>queja</option>
+            <option>consulta</option>
+            <option>otros</option><br>
+        </select>
+        comentarios: <textarea id="comentarios"></textarea><br>
+        Acepto las condiciones de servicio:<input type="checkbox" id="cs"><br>
+        <input type="submit">
+        <p id="resp"></p>
+    </form>
+</body>
+</html>

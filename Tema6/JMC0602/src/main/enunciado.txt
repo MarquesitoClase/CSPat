@@ -1,0 +1,5 @@
+5.3. Volviendo al proyecto del ejercicio 3.3 (la tienda), en la página contacto, añade un formulario con
+cinco campos: un texto para el nombre, un texto que debe ser de tipo email, una lista desplegable con
+los valores (queja, consulta, otros), una caja de texto para comentarios y un check de “Aceptar las
+condiciones del servicio”. Al enviarlo comunicar al usuario que ha sido recibido correctamente y
+mostrarle los datos que envió.

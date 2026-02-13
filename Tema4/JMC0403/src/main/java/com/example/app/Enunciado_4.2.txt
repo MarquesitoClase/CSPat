@@ -1,0 +1,13 @@
+4.2. Haz una copia del proyecto anterior y crea un área nueva para trabajar con fechas (nuevo
+controlador, nuevas vistas y nuevo servicio) con las siguientes características:
+a) La url base de esta parte será /fechas.
+b) Si le pasamos en la parte query una fecha, mostrará los días transcurridos desde el 1 de
+enero del mismo año. Las fechas se pasan siempre en formato YYYY-MM-DD.
+c) Si le pasamos en la parte query dos fechas, mostrará los días comprendidos entre ambas
+fechas.
+d) Si no se pasan ninguna fecha, mostrará los días transcurridos entre el 1 de enero y hoy.
+e) Si pasamos /bisiesto/fecha1 mostrará si fecha1 pasada en el path es de un año bisiesto.
+f) Si le pasamos /bisiesto/año1/año2 mostrará los años bisiestos comprendidos entre ambos
+años.
+Puedes crear en el index unos enlaces a las URL creadas con distintas fechas como
+parámetro y probar de forma sencilla los casos anteriores.

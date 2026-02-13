@@ -1,0 +1,5 @@
+4.4. Haz una copia del proyecto 3.4 pasando la lógica de negocio a una capa de servicio que contenga
+la colección con los números aleatorios y los métodos para añadir nuevos números, eliminar números
+existentes, devolver los elementos de la colección y devolver la cantidad de elementos de la colección.
+Una vez que funcione la aplicación, prueba a ejecutarla en distintos navegadores a la vez. Explica en el
+PDF de soluciones de este tema qué ocurre, por qué y cómo solucionarlo.

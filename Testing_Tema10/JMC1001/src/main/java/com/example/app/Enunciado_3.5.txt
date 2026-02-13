@@ -1,0 +1,28 @@
+3.5. Vuelve al proyecto del ejercicio 2.2 para trabajar con el pase de parámetros a los controladores en
+el path. Vamos a crear un nuevo controlador, con una nueva ruta base llamada /calculos que deberá
+realizar las siguientes tareas:
+a) Pasa la página index.html a la carpeta /templates y crea un controlador para ella.
+b) Mediante la URL: /calculos/primo?numero=X devolverá una página diciendo que el número X
+es primo o no. Por ahora, haz los cálculos en un método del propio controlador, aunque en
+capítulos siguientes los moveremos a otras capas.
+c) Modifica el apartado anterior, para que, si no introduce ningún número al que calcular si es
+primo o no, lo redirija a un controlador que trate el error. Este controlador por ahora
+simplemente mostrará la página de inicio.
+d) Mediante la URL /calculos/hipotenusa/X/Y devolverá una página con el valor de la hipotenusa
+correspondiente a los catetos X e Y. Si los números son negativos deberá redirigir al controlador
+que trate el error.
+
+e) Mediante la URL /calculos/sinRepetidos/X devolverá una página con X números aleatorios
+comprendidos entre 1 y 100, sin repetidos y ordenados ascendentemente. Obviamente X debe
+ser un número entero y estar comprendido entre 1 y 100, sino redirigirá a la página de error. Los
+mostrará en una tabla con una sola columna y cada número en una fila.
+Pregunta: ¿Qué colección de Java es la más adecuada para que no contenga repetidos y estén
+ordenados?
+f) Mediante la URL /calculos/divisores/X devolverá una lista con divisores del número X (cada
+número en un párrafo). Cada elemento de esa lista será un enlace, de forma que si el usuario
+clica en uno de ellos mostrará los divisores del mismo. Ejemplo: para la URL
+/cálculos/divisores/12 mostrará 1,2,3,6, 12 y podremos clicar por ejemplo en el 6 y mostrará
+1,2,3,6 y así sucesivamente.
+g) Haz una versión del ejercicio anterior, pero con el parámetro X en la query de la URL, por
+ejemplo: /calculos/divisores?num=X. También las URL generadas para los divisores serán enlaces
+con el parámetro en la query.

@@ -1,0 +1,8 @@
+8.10. Crea un nuevo proyecto a partir del proyecto 8.7 (Tienda) y documenta la API mediante Swagger:
+tanto documentación general: descripción, autor, etc. como información de cada método: descripción,
+valores devueltos y parámetros necesarios.(Esta desde 8.1, y no 8.7)
+
+7.1. Crea un proyecto que implemente el CRUD de Empleado partiendo del proyecto del tema anterior
+(ejercicio 6.1) y convirtiéndolo en persistente siguiendo los pasos indicados en el tema 7. Además de
+los métodos de JPARepository, incorpora los métodos derivados por nombre y los métodos @Query
+mostrados en los apuntes.

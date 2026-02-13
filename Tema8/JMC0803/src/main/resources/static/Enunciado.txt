@@ -1,0 +1,5 @@
+8.3. Haz un nuevo proyecto, partiendo del 8.1 e incorporale la asociación con Departamento
+(@ManyToOne) mostrada en los apuntes, creando con ModelMapper los dos DTO allí también
+mencionados (uno para enviar los datos de empleados al cliente mostrando solo id, nombre y email,
+y otro DTO para la inserción y edición de empleados). Puedes basarte también en el ejercicio 7.2. para
+la entidad y repositorio de Departamento.

@@ -1,0 +1,11 @@
+9.1. Crea un proyecto a partir del 7.1 (CRUD de Empleado con Spring MVC sobre base de datos H2) y
+configura la seguridad siguiendo los pasos mostrados en los apuntes, creando en el bean
+UserDetailsService dos usuarios, con nombre ‘user’ y ‘admin’, ambos con contraseña 1234 y con roles
+‘USER’ y ‘ADMIN’ respectivamente. La vista de empleados deberá estar accesible a cualquier visitante,
+el usuario ‘user’ podrá crear nuevos empleados, y el usuario ‘admin’ podrá además editar y borrar
+empleados.
+• Debes crear la clase SecurityConfig tal y como se muestra en los apuntes.
+• La vista general de empleados contendrá un enlace a la página de login y otro a la página de
+/logout.
+• En caso de un acceso a una página a la que no se tiene permiso, se mostrará una página con
+un mensaje informando de esa situación.

@@ -1,0 +1,4 @@
+8.2. Crea un nuevo proyecto conviertiendo el proyecto del ejercicio 4.3 (Cálculos matemáticos y fechas)
+a API Rest sin gestión de excepciones.
+• Como queremos los valores de respuesta lleguen al cliente en formato JSON debes crear un
+Map que conformará el cuerpo de la respuesta.

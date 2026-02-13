@@ -1,0 +1,2 @@
+8.1. Implementa el CRUD de Empleado partiendo del proyecto del tema anterior (ejercicio 7.1) y
+convirtiéndolo en una API REST sin gestión de excepciones.

@@ -1,0 +1,11 @@
+3.1. Toma el proyecto del ejercicio 2.4 del tema anterior y desarrolla una clase controladora que
+contenga diferentes @GetMapping que devuelvan las vistas solicitadas (index, quienes-somos,
+productos, contacta) .
+a) ¿Tienes que cambiar de ubicación las vistas? ¿Por qué?
+b) ¿Tienes que cambiar el código HTML del menú de navegación de las páginas?
+c) ¿Tienen que llamarse igual las rutas del GetMapping y las vistas?
+La página index será servida para las URL: /index, /home, o simplemente /. Ya que las rutas y las vistas
+no tienen por qué llamarse igual, renombra las vistas con el sufijo “view”: homeView.html,
+aboutUsView.html, productsView.html, contactView.html.
+(Opcional) Elimina el mapping quienes-somos y haz que muestre la vista aboutUsView.html mediante
+un archivo de configuración (implementando WebMvcConfigurer).

@@ -1,0 +1,2 @@
+3.4. Implementa el ejemplo de los apuntes que genera números aleatorios en un nuevo proyecto.
+Simplemente debes crear el controlador y la plantilla con el código mostrado.

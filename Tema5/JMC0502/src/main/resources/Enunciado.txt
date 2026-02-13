@@ -1,0 +1,23 @@
+5.2. Haz una copia del proyecto 4.3. y vamos a cambiar la forma de comunicaros con la aplicación.
+Vamos a sustituir las URL con variables en la parte query y en la parte path por formularios.
+Veremos como la capa de servicio permanece intacta (así comprobamos las ventajas de la 
+separación por capas). Lo haremos paso a paso:
+a) Haz una página de inicio que simplemente contenga dos enlaces, uno para una página de
+cálculos numéricos y otro para una página de tratamiento de fechas.
+b) La página de cálculos numéricos contendrá un formulario con un solo campo de texto en el
+que se introducirá un número. Al pulsar el botón de envío devolverá una vista indicando si el
+número es primo o no. Una vez que te funcione puedes, mediante las anotaciones de
+validación, controlar si se introduce el campo de formulario vacío o con valores no numéricos.
+c) Añade otro formulario a la misma página, con dos campos de texto en donde introduciremos
+los catetos de un triángulo y un nuevo botón de envío. Al pulsarlo nos devolverá una vista con
+el valor de la hipotenusa.
+d) Añade a la misma página un tercer formulario similar a los anteriores que muestre los
+divisores del número introducido. Puedes usar el mismo CommandObject que en el apartado
+b).
+e) Vamos ahora con la página de tratamiento de fechas. Deberá contener un formulario que
+contenga dos cajas de texto y dos botones de radio agrupados. El primer botón de radio es
+para “días entre fechas” y el segundo para “años bisiestos entre fechas”. Si se selecciona el
+primero, al pulsar el botón de envío mostrará los días comprendidos entre las fechas
+introducidas en los campos de texto y si selecciona el segundo botón de radio, al pulsar el botón
+de envío, mostrará la cantidad de años bisiestos comprendidos entre esas fechas. Habrá que
+verificar que las fechas son válidas, en caso contrario redirigirá a una página de error.

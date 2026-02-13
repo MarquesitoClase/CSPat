@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>productos</title>
+</head>
+<body>
+    <h2>productos</h2>
+    <table>
+        id, enOferta, tipoIva, nombre, cantidad, precio
+        <tr th:each="Producto:$listaProductos">
+            <td th:text="${Producto.id}">id</td>
+            <td th:text="${Producto.enOferta}">enOferta</td>
+            <td th:text="${Producto.nombre}">Nombre</td>
+            <td th:text="${Producto.cantidad}">cantidad</td>
+            <td th:text="${Producto.precio}">precio</td>
+            <td th:text="${Producto.tipoIva}">tipoIva</td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,12 @@
+7.3. Haz un nuevo proyecto, partiendo del anterior e incorpórale la asociación con Categoría mostrada
+en los apuntes (@OneToMany) de forma bidireccional. Recuerda que en la clase Empleado debes
+añadir la anotación @ToString.Exclude al atributo de Categoría.
+Crea una interfaz genérica para todos los servicios como la mostrada en los apuntes (HelperService) y
+haz que todos los servicios la implementen.
+
+7.2. Haz un nuevo proyecto con un CRUD de Empleado (puedes partir del ejercicio anterior), añade el
+CRUD de Departamento e incorpora la asociación Empleado-Departamento (@ManyToOne) mostrada
+en los apuntes. Si no lo has hecho aún, deberías tener dividido en paquetes el proyecto: domain,
+controllers, services, repositories.
+7.2b. Haz una segunda versión del proyecto anterior en la que se pueda elegir un departamento en la
+vista y muestre solo los empleados de dicho departamento.

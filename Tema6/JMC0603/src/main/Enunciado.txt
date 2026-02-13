@@ -1,0 +1,4 @@
+6.3. Crea un nuevo proyecto basado en el anterior para incluir una interfaz de servicio
+(ProductoService) y haz que la clase de servicio del ejercicio anterior implemente la interfaz y llámala:
+ProductoServiceImplMem.
+Nota: en el tema siguiente haremos una implementación sobre base de datos en vez de en memoria.

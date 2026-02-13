@@ -1,0 +1,7 @@
+3.2. Añade al proyecto anterior contenido dinámico pasándole información a las plantillas 
+mediante un model y representándolo con etiquetas Thymeleaf.
+La página de inicio puede tener el año actual, por ejemplo ©2023 tomado de la
+fecha del sistema del servidor. La página de productos puede recibir
+la lista con los nombres de los productos que ofrece
+(por ahora puede ser un arraylist de String en el
+controlador, pero más adelante tomará los datos de la base de datos).

@@ -1,0 +1,8 @@
+7.11. Toma el proyecto de los movimientos de cuentas del tema anterior (ejercicio 6.6) y convierte los
+repositorios en memoria en repositorios sobre una base de datos H2 en memoria.
+• Si la clase Movimiento no tenía asignado un id, es más cómodo que le asignes uno con @Id.
+• Establece una relación unidireccional entre Cuenta y Movimiento.
+• En el ejercicio 6.6 teníamos que borrar los movimientos al borrar una cuenta, ahora lo hará
+automáticamente al añadir @OnDelete(action=OnDeleteAction.CASCADE) a la entidad Movimiento.
+• El repositorio de Movimiento necesitará el método derivado:
+List<Movimiento> findByCuenta(Cuenta cuenta);

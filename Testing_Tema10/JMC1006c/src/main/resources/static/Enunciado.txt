@@ -1,0 +1,19 @@
+Esta es la parte c desde el 07.02
+10.6. Crea un proyecto para cada uno de los siguientes apartados, cada uno con su Dockerfile.
+a) Toma el ejercicio 6.1 e instálalo en un contenedor. No necesita ningún almacenamiento.
+b) Toma el ejercicio 7.6 e instálalo en un contenedor. Necesita almacenamiento para los ficheros que componen la base de datos H2, por lo que debes crear previamente un volumen Docker.
+c) Crea un contenedor con un servidor MySql y ejecuta una copia del proyecto del ejercicio 10.1 sobre este contenedor. No se pide crear un contenedor para el proyecto, solo para el servidor MySql. En el proyecto solo debes cambiar la ruta del servidor de base de datos, en vez de localhost, debes poner el nombre del contenedor. Tampoco hay que crear una red Docker.
+d) Toma el ejercicio 10.1, haz una copia e instálalo en un contenedor. Debes crear un contenedor adicional con MySQL como el del apartado anterior. En este caso, sí debes crear una red de tipo bridge para que ambos contenedores se puedan comunicar.
+e) Haz un ejercicio similar al anterior pero empleado Docker Compose y añadiendo un contenedor adicional con phpmyadmin para acceder al contenido de la base de datos MySQL.
+
+
+7.2. Haz un nuevo proyecto con un CRUD de Empleado (puedes partir del ejercicio anterior), añade el
+CRUD de Departamento e incorpora la asociación Empleado-Departamento (@ManyToOne) mostrada
+en los apuntes. Si no lo has hecho aún, deberías tener dividido en paquetes el proyecto: domain,
+controllers, services, repositories.
+
+
+7.1. Crea un proyecto que implemente el CRUD de Empleado partiendo del proyecto del tema anterior
+(ejercicio 6.1) y convirtiéndolo en persistente siguiendo los pasos indicados en el tema 7. Además de
+los métodos de JPARepository, incorpora los métodos derivados por nombre y los métodos @Query
+mostrados en los apuntes.

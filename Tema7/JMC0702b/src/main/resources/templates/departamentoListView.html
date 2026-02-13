@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Listado de departamentos de la empresa:</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th><th>Nombre</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="departamento : ${listaDepartamentos}">
+                <td th:text="${departamento.id}">Id</td>
+                <td th:text="${departamento.nombre}">NombreDepartamento</td>
+        </tbody>
+    </table>
+</body>
+</html>

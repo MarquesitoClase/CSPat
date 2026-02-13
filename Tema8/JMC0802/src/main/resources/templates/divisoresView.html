@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Sus divisores son: </h1>
+        <ul th:each="divisor:${listaDivisores}">
+            <li>
+               <a th:href="@{'/calculos/divisores/'+${divisor}}" th:text="${divisor}"></a><br/>
+            </li>
+        </ul>
+</body>
+</html>

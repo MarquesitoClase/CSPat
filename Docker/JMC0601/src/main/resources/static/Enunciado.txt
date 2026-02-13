@@ -1,0 +1,3 @@
+6.1. Crea un proyecto implementando el CRUD de la entidad Empleado mostrado estos apuntes (sería
+el proyecto xxx0601). Opcionalmente, puedes crear otra versión (proyecto xxx0601b) que incluya una
+imagen a modo de avatar para cada empleado.

@@ -1,0 +1,15 @@
+6.2. Crea un nuevo proyecto partiendo del proyecto del ejercicio 5.3 (la tienda).
+Sobre el nuevo proyecto crea un paquete llamado domain que incluya una clase llamada
+Producto. Los atributos de un producto serán: id (long), nombre (String), enOferta (boolean),
+TipoIva (enumeración: superreducido,
+reducido, normal) y precio (double). Crea un CRUD de Producto con un repositorio en memoria (en un
+ArrayList). Habría que hacer lo siguiente:
+a) Estructura de carpetas/paquetes: domain, services, controllers.
+b) Crear en la carpeta domain la clase Producto con atributos, getters, setters y constructores ayudándote de
+Lombok. Crear en la misma carpeta la enumeración TipoIva.
+c) Crea la clase de servicio con el repositorio en memoria
+d) Crear el controlador que responda a las peticiones CRUD con todos los GetMapping y los PostMapping para
+el envío de datos en caso de alta o modificación de Producto.
+e) Crear las vistas. El formulario de alta contendrá un botón de check para marcar si el producto está en oferta
+o no y botones de radio para seleccionar el tipo de IVA. El resto de campos serán cajas de texto.
+f) Crear un commandLineRunner que inicie el repositorio con unos valores cualquiera.

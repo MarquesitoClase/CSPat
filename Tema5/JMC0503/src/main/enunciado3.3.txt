@@ -1,0 +1,7 @@
+
+3.3. Haz una copia del proyecto anterior y sobre él: si en la página de inicio, se le 
+pasa el parámetro usuario=XXX mostrará el mensaje de bienvenida con un texto personalizado 
+para ese usuario, pero si no le pasa nada, será un mensaje genérico (Bienvenido XXX a nuestra web vs. Bienvenido a nuestra
+web).
+Haz una versión sin Optional, luego ponla entre comentarios y haz una segunda 
+versión con Optional.

@@ -1,0 +1,8 @@
+1.6. Realizar una clase llamada Primitiva que tenga definido una colección de 6 elementos con el resultado de un 
+sorteo de la primitiva (serán 6 enteros con valores comprendidos entre 1 y 49 y sin repetidos). 
+Los números se deberán mostrar ordenados ascendentemente así que decide cual es la colección que mejor se adapta 
+a estos requisitos. La clase dispondrá de un constructor en el que se generan y almacenan esos números al azar, 
+también tendrá un método al que se le pase una combinación jugada como parámetro (no necesariamente ordenada) y 
+devuelva el número de aciertos. Realiza a continuación un programa en el que el usuario introduzca boletos 
+(6 números sin repetidos) y le diga cuantos acertó. Realizar control de errores, tanto si el usuario introduce 
+valores no numéricos, números repetidos o valores no comprendidos entre 1 y 49.

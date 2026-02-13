@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="post" th:action="@{/multiplicar/submit}" th:object="${formInfo}">
+        <input type="text" th:field="*{operando1}"/><br/>
+        <input type="text" th:field="*{operando2}"/><br/>
+        <label>Acepto las condiciones del servicio: </label>
+            <input type="checkbox" id="aceptaCondiciones">
+        <input type="submit" value="multiplicar"/>
+    </form>
+</body>
+</html>
